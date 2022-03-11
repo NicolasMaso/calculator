@@ -1,0 +1,52 @@
+*{
+    font-family: Helvetica;
+}
+
+button{
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.3em;
+    font-weight: bold;
+    transition: filter 0.3s ease-out;
+}
+
+button:hover{
+    cursor: pointer;
+    filter: brightness(140%)
+}
+
+.wrapper{
+    background-color: #1C1C1C;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+
+.numbers{
+    background-color: #505050;
+    color: white;
+}
+
+.display{
+    color: white;
+    font-size: 3.5em;
+    font-weight: bold;
+    justify-content: right;
+    display: flex;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.title{
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    color: #535150;
+}

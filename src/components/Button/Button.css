@@ -1,0 +1,39 @@
+*{
+    font-family: Helvetica;
+}
+
+button{
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.3em;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.zero{
+  width: 6em;
+  border-radius: 2em;
+  padding-right: 4em;
+  margin-right: 1em;
+}
+
+[type="side-operator"]{
+    background-color: #FF9500;
+    color: white;  
+}
+
+[type="top-operator"]{
+    background-color: #D4D4D2;
+    color: black; 
+}
+
+[type="default"]{
+    background-color: #505050;
+    color: white;
+}
