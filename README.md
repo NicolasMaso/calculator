@@ -1,5 +1,6 @@
 # Simple iPhone calculator design with ReactJS
 
+![](calculator.jpg)
 
 ## To install dependencies:
 ### `yarn`
